@@ -1,0 +1,29 @@
+{
+  "name": "helloapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts": "tsc -w",
+    "server": "nodemon  ./build/index.js",
+    "start": "tsc && node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "@types/mongoose": "^4.7.21",
+    "@types/node": "^8.0.25",
+    "express": "^4.15.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.7.0",
+    "cors": "^2.8.4",
+    "helmet": "^3.8.1",
+    "http": "0.0.0",
+    "mongoose": "^4.11.8",
+    "morgan": "^1.8.2"
+  }
+}

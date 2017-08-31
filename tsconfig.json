@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "rootDir": "./src",
+        "outDir": "./build",
+        "pretty": true,
+        "lib": [ "es2015", "dom" ],
+        "target": "ES5",
+        "module": "commonjs",
+        "inlineSourceMap":true
+    }
+}
